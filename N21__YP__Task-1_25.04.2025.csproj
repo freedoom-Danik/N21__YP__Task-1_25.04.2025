@@ -158,11 +158,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddClient.Designer.cs">
+      <DependentUpon>AddClient.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddSort.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AddSort.Designer.cs">
       <DependentUpon>AddSort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditClient.Designer.cs">
+      <DependentUpon>EditClient.cs</DependentUpon>
     </Compile>
     <Compile Include="EditSotr.cs">
       <SubType>Form</SubType>
@@ -200,6 +212,9 @@
     <Compile Include="Sotr.Designer.cs">
       <DependentUpon>Sotr.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="EditSotr.resx">
+      <DependentUpon>EditSotr.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
